@@ -16,3 +16,5 @@ if(new Book() instanceof Product){
 if(! new Book() instanceof CD){
     echo "<br>Book class doesn't have instance in CD class";
 }
+
+echo '<br>' . get_class(new Book());
